@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">EspressoTestRecorder</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_jump">Jump</string>
+    <string name="default_count">0</string>
+    <string name="ok">OK</string>
 </resources>
