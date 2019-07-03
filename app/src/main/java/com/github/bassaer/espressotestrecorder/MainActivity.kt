@@ -22,8 +22,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        textView = findViewById(R.id.left_text)
-
+        textView = findViewById(R.id.text_view)
         viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
         viewModel.getData().observe(this, Observer { data ->
             textView.text = data.toString()
